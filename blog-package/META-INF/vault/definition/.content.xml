@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:vlt="http://www.day.com/jcr/vault/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="vlt:PackageDefinition"
+    name="spglobal-blog-five-predictions-2026-automotive-v1"
+    group="mobility-global"
+    version="1.0.0"
+    description="S&amp;P Global Blog - Five projections for the 2026 automotive industry outlook">
+    <filter jcr:primaryType="nt:unstructured">
+        <f0
+            jcr:primaryType="nt:unstructured"
+            root="/content/mobility-global/en-us/automotive-insights/blogs/2026/01/five-predictions-2026-automotive-industry-outlook"
+            rules="[]"/>
+    </filter>
+</jcr:root>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <comment>FileVault Package Properties</comment>
+    <entry key="name">spglobal-blog-five-predictions-2026-automotive-v1</entry>
+    <entry key="version">1.0.0</entry>
+    <entry key="group">mobility-global</entry>
+    <entry key="description">S&amp;P Global Blog - Five projections for the 2026 automotive industry outlook</entry>
+    <entry key="createdBy">migration-service</entry>
+    <entry key="packageType">content</entry>
+    <entry key="requiresRoot">false</entry>
+    <entry key="allowIndexDefinitions">false</entry>
+</properties>
