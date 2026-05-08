@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Five projections for the 2026 automotive industry outlook"
+        jcr:description="The 2026 automotive industry outlook is defined by stability in global vehicle sales, a recalibrated electrification trajectory, and heightened competition from Chinese automakers."
+        sling:resourceType="core/franklin/components/page/v1/page"
+        cq:template="/conf/mobility-global/settings/wcm/templates/insight-details"
+        pageType="Insights Details Page"
+        breadcrumb-override="inherit"
+        unsetTitle="false"
+        modelFields="[pageType@select,breadcrumb-override@select,image@reference,lottieLink@aem-content,titlePosition@text,eventDateTime@date-time,eventLocation@text,timeToRead@text,eventLink@aem-content,assetAttributes@aem-tag,audienceRole@aem-tag,brandDataSource@aem-tag,campaignType@aem-tag,contentFormat@aem-tag,eventFormat@aem-tag,industrySector@aem-tag,insightsThoughtLeaderContentType@aem-tag,marketConditions@aem-tag,needStates@aem-tag,pillars@aem-tag,platforms@aem-tag,productCapability@aem-tag,productFamily@aem-tag,marketSalesRegion@aem-tag,marketRegion@aem-tag,marketCountry@aem-tag,regulatoryContext@aem-tag,segmentationUserContext@aem-tag,series@aem-tag,servicesAdvisory@aem-tag,theme@aem-tag,timeHorizon@aem-tag,topic@aem-tag,vehicleTypeSegment@aem-tag,workflowStage@aem-tag]"
+        cq:lastModified="2026-05-08 10:00:00 GMT+0000"
+        cq:lastModifiedBy="migration-service@spglobal.com">
+        <image jcr:primaryType="nt:unstructured"/>
+        <root jcr:primaryType="nt:unstructured" sling:resourceType="core/franklin/components/root/v1/root">
+            <section_hero
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section"
+                model="section"
+                aueComponentId="section"
+                style="[bg-grey]"
+                name="Section - Hero"
+                modelFields="[name@text,id@text,style@multiselect]">
+                <hero
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/block/v1/block"
+                    name="Hero"
+                    model="hero"
+                    aueComponentId="hero"
+                    classes="hero-black-colored-right"
+                    heading="&lt;h4&gt;Five projections for the 2026 automotive industry outlook&lt;/h4&gt;"
+                    description="&lt;p&gt;Jan 30, 2026&lt;/p&gt;"
+                    image="/content/dam/mobility-global/en-us/blogs/five-predictions-2026-automotive-industry-outlook/hero-five-projections-2026-automotive-industry-outlook.jpg"
+                    imageAlt="Five projections for the 2026 automotive industry outlook"
+                    playOnce="true"
+                    button1Type="secondary"
+                    tagVariation="outline"
+                    modelFields="[classes@select,image@reference,imageAlt@text,eyebrow text@text,heading@richtext,description@richtext,button1@aem-content,button1Title@text,button1Text@text,button1Type@select,button2@aem-content,button2Title@text,button2Text@text,button2Type@select,tagVariation@select,tag-title@text,playOnce@boolean]"/>
+            </section_hero>
+            <section_insights_detail
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section"
+                model="section"
+                aueComponentId="section"
+                style="[bg-grey]"
+                name="Section - Insights Detail"
+                modelFields="[name@text,id@text,style@multiselect]">
+                <block
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/block/v1/block"
+                    name="Insight Details"
+                    model="insight-details"
+                    aueComponentId="insight-details"
+                    authorVariation="manual"
+                    authorName="Henner Lehne"
+                    authorImage="/content/dam/spglobal/corporate/en/images/general/experts/henner-lehne-400x400.jpg"
+                    authorLink="/automotive-insights/en/blogs#q=%2522Henner%2520Lehne%2522"
+                    showTimeToRead="no"
+                    showTags="yes"
+                    showInsightsThoughtLeaderContentType="yes"
+                    showTopic="yes"
+                    showTheme="yes"
+                    showSeries="yes"
+                    showRegionMarket="yes"
+                    showEventFormat="yes"
+                    modelFields="[authorVariation@select,authorProfileLink@aem-content,authorName@text,authorLink@aem-content,authorImage@reference,showTimeToRead@select,showTags@select,showInsightsThoughtLeaderContentType@select,showTopic@select,showTheme@select,showSeries@select,showRegionMarket@select,showEventFormat@select]"/>
+            </section_insights_detail>
+            <section_summary
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section"
+                model="section"
+                aueComponentId="section"
+                style="[bg-quiet-light]"
+                name="Section - Content module"
+                modelFields="[name@text,id@text,style@multiselect]">
+                <tag
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/block/v1/block"
+                    name="Tag"
+                    model="tag"
+                    aueComponentId="tag"
+                    tagVariation="dark"
+                    tag-title="Article Summary"
+                    modelFields="[tagVariation@select,tag-title@text,tagIcon@select]"/>
+                <text
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/text/v1/text"
+                    aueComponentId="text"
+                    text="&lt;p&gt;The 2026 automotive industry outlook is defined by stability in global vehicle sales, a recalibrated electrification trajectory, and heightened competition from Chinese automakers.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;#link1&quot;&gt;2026 light vehicle sales outlook: Flat growth amid mixed regional trends&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;#link2&quot;&gt;2026 vehicle electrification outlook: Growth slows as hybrids gain traction&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;#link3&quot;&gt;Global vehicle production outlook weakens for 2026&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;#link4&quot;&gt;Chinese automakers: Deepening global integration and local production&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;#link5&quot;&gt;Global auto pricing in 2026: Regulatory shifts, competitive pressures and the race for tech-driven value&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;#link6&quot;&gt;Conclusion&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;#link7&quot;&gt;Drive decisions with unmatched industry intelligence&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Following a year of uneven recovery and shifting consumer sentiment, the 2026 automotive industry outlook is defined by stability in global&amp;nbsp;vehicle&amp;nbsp;sales, a recalibrated electrification trajectory, and heightened competition from Chinese automakers.&amp;nbsp;&lt;/p&gt;&lt;p&gt;Evolving regulatory landscapes and new pricing strategies are adding fresh layers of complexity, prompting industry leaders to rethink their approaches.&amp;nbsp;&lt;/p&gt;"/>
+            </section_summary>
+            <section_content1
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section"
+                model="section"
+                aueComponentId="section"
+                id="link1"
+                name="Section - Sales Outlook"
+                modelFields="[name@text,id@text,style@multiselect]">
+                <text
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/text/v1/text"
+                    aueComponentId="text"
+                    text="&lt;h4&gt;Five key forces shaping the 2026 automotive industry outlook&amp;nbsp;&lt;/h4&gt;&lt;h4&gt;1.&amp;nbsp;2026&amp;nbsp;light vehicle sales outlook:&amp;nbsp;Flat&amp;nbsp;growth amid mixed regional trends&lt;/h4&gt;&lt;p&gt;Global new vehicle sales rose 3.4% in 2025 to about 91.7 million units, but momentum is easing as global economic growth slows. The S&amp;amp;P Global Economics team&apos;s forecast projects global GDP growth of 2.7% for 2026, down slightly from 2025.&lt;/p&gt;&lt;p&gt;Global light vehicle sales enter 2026 with sales expected to remain steady at around 91.8 million units. This near-flat automotive industry outlook reflects a complex mix of market drivers and risks, including ongoing tariff impacts, semiconductor chip shortages, supply chain uncertainties, high interest rates, and ongoing but uneven EV adoption rates.&lt;/p&gt;&lt;p&gt;Rising cost and price pressures, especially in the latter half of 2026, could also limit upside potential.&lt;/p&gt;"/>
+                <image
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/image/v1/image"
+                    aueComponentId="image"
+                    image="/content/dam/mobility-global/en-us/blogs/five-predictions-2026-automotive-industry-outlook/global-light-vehicle-sales-millions.jpg"/>
+                <text_regional
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/text/v1/text"
+                    aueComponentId="text"
+                    text="&lt;p&gt;&lt;b&gt;Regional&amp;nbsp;highlights:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Mainland China.&amp;nbsp;&lt;/b&gt;Sales are&amp;nbsp;forecast to decline by&amp;nbsp;about&amp;nbsp;267,000 units in 2026, reflecting&amp;nbsp;pull-ahead&amp;nbsp;demand&amp;nbsp;from 2025 incentives and&amp;nbsp;slower&amp;nbsp;economic growth.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;North America.&amp;nbsp;&lt;/b&gt;Sales are expected to drop by about 590,000 units&amp;nbsp;to&amp;nbsp;19.3&amp;nbsp;million. In the US,&amp;nbsp;accelerated purchases ahead of&amp;nbsp;anticipated&amp;nbsp;price hikes&amp;nbsp;weigh on demand. Mexico&amp;nbsp;faces a challenging year with&amp;nbsp;sales down&amp;nbsp;more than&amp;nbsp;8.7%&amp;mdash;approximately&amp;nbsp;137,000 units.&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Western and Central Europe.&amp;nbsp;&lt;/b&gt;The&amp;nbsp;automotive industry outlook for vehicle sales&amp;nbsp;projects&amp;nbsp;mild growth&amp;nbsp;in 2026, with an increase of 260,000 units to 15.4 million.&amp;nbsp;This increase is&amp;nbsp;driven by improved real incomes, lower&amp;nbsp;inflation&amp;nbsp;and a resilient labor market.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;South Asia.&amp;nbsp;&lt;/b&gt;India will lead&amp;nbsp;sales growth in 2026, adding 400,000 units. Overall, the region is set to grow by 5.3% to 10.4 million units.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Taken together, these regional shifts underscore the complexity of the 2026 automotive industry outlook, with automakers facing contrasting regional challenges.&lt;/p&gt;"/>
+            </section_content1>
+            <section_content2
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section"
+                model="section"
+                aueComponentId="section"
+                id="link2"
+                name="Section - Electrification"
+                modelFields="[name@text,id@text,style@multiselect]">
+                <text
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/text/v1/text"
+                    aueComponentId="text"
+                    text="&lt;h4&gt;2. 2026 vehicle electrification outlook: Growth slows as hybrids gain traction&lt;/h4&gt;&lt;p&gt;The global vehicle electrification journey continues, but growth is moderating. In 2025, battery electric vehicle (BEV) sales surged by 29% year over year (y/y) to approximately 14.6 million units, representing a 16.1% share of global light vehicle sales.&lt;/p&gt;&lt;p&gt;In 2026, BEV sales are projected to grow by another 19% to around 17.4 million units&amp;mdash;about 19% of the global vehicle sales market.&lt;/p&gt;&lt;p&gt;At the same time, vehicle electrification will slow in many regions as governments adjust regulations and incentives. Tariffs, shifting carmaker targets and evolving consumer adoption expectations are driving automakers to reassess model launches and investment plans. By 2026, the automotive industry outlook for electrified vehicles&amp;mdash;including BEVs, range-extended EVs and plug-in hybrids&amp;mdash;projects global vehicle sales reaching 30%.&lt;/p&gt;&lt;p&gt;The trajectory towards electrification is now more nuanced. Hybrids and plug-in hybrids are seen as vital players alongside BEVs, helping to bridge gaps in infrastructure and consumer readiness as the industry adapts to a changing regulatory and economic landscape.&lt;/p&gt;"/>
+                <image
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/image/v1/image"
+                    aueComponentId="image"
+                    image="/content/dam/mobility-global/en-us/blogs/five-predictions-2026-automotive-industry-outlook/global-sales-share-by-electrification-type.jpg"/>
+            </section_content2>
+            <section_content3
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section"
+                model="section"
+                aueComponentId="section"
+                id="link3"
+                name="Section - Production"
+                modelFields="[name@text,id@text,style@multiselect]">
+                <text
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/text/v1/text"
+                    aueComponentId="text"
+                    text="&lt;h4&gt;3. Global vehicle production outlook weakens for 2026&lt;/h4&gt;&lt;p&gt;While the risk of DRAM chip shortages and other semiconductor chip shortages remains on the radar, we expect carmakers to mitigate potential supply chain interruptions by absorbing higher costs.&lt;/p&gt;&lt;p&gt;Global vehicle production finished 2025 slightly stronger than expected at 92.9 million units, up 3.7% over 2024 and approaching the peak of 95 million units in 2017.&lt;/p&gt;&lt;p&gt;With global light vehicle sales demand projected to remain flat in 2026, global vehicle production is forecast to edge down to 92.6 million units, a 0.4% y/y decline that reflects maturing markets and evolving regional dynamics.&lt;/p&gt;&lt;p&gt;This anticipated dip in output reflects broader patterns within the automotive industry outlook, as maturing markets and shifting regional dynamics continue to shape manufacturing strategies.&lt;/p&gt;"/>
+                <image
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/image/v1/image"
+                    aueComponentId="image"
+                    image="/content/dam/mobility-global/en-us/blogs/five-predictions-2026-automotive-industry-outlook/global-light-vehicle-production-millions.jpg"/>
+                <text_regional
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/text/v1/text"
+                    aueComponentId="text"
+                    text="&lt;p&gt;&lt;b&gt;Regional&amp;nbsp;highlights:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;North America.&lt;/b&gt;&amp;nbsp;2025&amp;nbsp;light&amp;nbsp;vehicle&amp;nbsp;production&amp;nbsp;fell&amp;nbsp;1%&amp;nbsp;y/y&amp;nbsp;to&amp;nbsp;15.3 million units&amp;nbsp;and is forecast to decline by&amp;nbsp;about 330,000 units&amp;nbsp;in 2026 to&amp;nbsp;15 million.&amp;nbsp;Despite&amp;nbsp;import tariffs,&amp;nbsp;some&amp;nbsp;automakers&amp;nbsp;plan to&amp;nbsp;increase&amp;nbsp;certain vehicle&amp;nbsp;imports&amp;nbsp;at the expense of domestic production, while&amp;nbsp;muted demand&amp;nbsp;adds&amp;nbsp;to this overall decline.&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Mainland China.&amp;nbsp;&lt;/b&gt;China&apos;s&amp;nbsp;2025 production&amp;nbsp;outlook&amp;nbsp;is now&amp;nbsp;expected to reach 32.9&amp;nbsp;million units,&amp;nbsp;up&amp;nbsp;10% y/y.&amp;nbsp;In 2026,&amp;nbsp;output is projected&amp;nbsp;to decline 1.4% to 32.5 million units&amp;nbsp;as&amp;nbsp;new energy vehicle&amp;nbsp;(NEV)&amp;nbsp;tax cut&amp;nbsp;incentives are reduced&amp;nbsp;and some PHEVs&amp;nbsp;lose eligibility.&amp;nbsp;&amp;nbsp;&lt;br/&gt;&amp;nbsp;&lt;br/&gt;Strong export growth continues to offset domestic headwinds&amp;mdash;an&amp;nbsp;automotive industry market&amp;nbsp;trend&amp;nbsp;that&amp;nbsp;illustrates&amp;nbsp;the rising influence of Chinese automakers and Chinese car brands in global vehicle production.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Western/Central Europe.&amp;nbsp;&lt;/b&gt;Production remained&amp;nbsp;relatively stable&amp;nbsp;in 2025 at 14.1 million units&amp;nbsp;(down 250,000)&amp;nbsp;despite weak domestic demand and slower-than-expected&amp;nbsp;vehicle&amp;nbsp;electrification uptake.&amp;nbsp;Our automotive industry&amp;nbsp;outlook&amp;nbsp;sees production&amp;nbsp;falling&amp;nbsp;by another&amp;nbsp;0.9% in 2026 to&amp;nbsp;14&amp;nbsp;million&amp;nbsp;units.&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;Japan.&amp;nbsp;&lt;/b&gt;Output is projected at about 8 million units for 2025 (up 1.3% y/y)&amp;nbsp;and is expected to stay flat&amp;nbsp;in&amp;nbsp;2026&amp;nbsp;at about&amp;nbsp;7.93 million.&amp;nbsp;A weaker yen and sourcing shifts for key models continue to&amp;nbsp;boost&amp;nbsp;hybrid exports,&amp;nbsp;particularly for&amp;nbsp;Toyota.&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;b&gt;South Korea.&amp;nbsp;&lt;/b&gt;Production is stable at 4 million units for 2025, following resolution of industrial disputes and strong exports to Europe. In 2026, output is expected to decrease to 3.91 million units, reflecting softer domestic demand and program timing changes.&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;"/>
+            </section_content3>
+            <section_content4
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section"
+                model="section"
+                aueComponentId="section"
+                id="link4"
+                name="Section - Chinese Automakers"
+                modelFields="[name@text,id@text,style@multiselect]">
+                <text
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/text/v1/text"
+                    aueComponentId="text"
+                    text="&lt;h4&gt;4. Chinese automakers: Deepening global integration and local production&lt;/h4&gt;&lt;p&gt;Entering 2026, Chinese automakers continue to reshape the global vehicle sales competitive landscape, particularly in EVs and hybrid powertrains. In the domestic market, Chinese car brands have rapidly displaced foreign joint ventures.&lt;/p&gt;&lt;p&gt;In 2025, Chinese-origin brands (excluding overseas marques under Chinese ownership, such as Volvo) accounted for approximately 26.5% of global vehicle production, or 24.8 million units, an 18% y/y increase. Growth is expected to continue but moderate in 2026 relative to the rapid expansion seen from 2023 to 2025.&lt;/p&gt;&lt;p&gt;Global vehicle production share for Chinese-origin brands is forecast to rise roughly 27.4% in 2026, equivalent to about 2% y/y growth. As domestic demand cools, overseas markets are becoming increasingly critical to sustaining volume growth.&lt;/p&gt;&lt;p&gt;Production outside mainland China totaled about 1.1 million vehicles in 2025 and is expected to increase to roughly 1.6 million units in 2026. As Chinese brands deepen their global integration, their strategies are increasingly influential in shaping the automotive industry outlook beyond their domestic market.&lt;/p&gt;"/>
+                <image
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/image/v1/image"
+                    aueComponentId="image"
+                    image="/content/dam/mobility-global/en-us/blogs/five-predictions-2026-automotive-industry-outlook/chinese-brands-production-volumes-per-region.jpg"/>
+            </section_content4>
+            <section_content5
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section"
+                model="section"
+                aueComponentId="section"
+                id="link5"
+                name="Section - Pricing"
+                modelFields="[name@text,id@text,style@multiselect]">
+                <text
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/text/v1/text"
+                    aueComponentId="text"
+                    text="&lt;h4&gt;5. Global auto pricing in 2026: Regulatory shifts, competitive pressures and the race for tech-driven value&lt;/h4&gt;&lt;p&gt;&lt;b&gt;Europe:&amp;nbsp;Regulatory impacts intersect with intensifying product competition&lt;/b&gt;&lt;/p&gt;&lt;p&gt;BEV prices in Europe are declining faster than expected. OEMs are increasingly using ICE price increases to partially offset BEV pricing pressure, raising concerns about approaching affordability limits.&lt;/p&gt;&lt;p&gt;At the same time, the EV and hybrid segments face strong competition from Chinese automakers, which are targeting higher-priced segments by offering aggressive value propositions rather than competing in the sub-&amp;euro;20,000 affordable market.&lt;/p&gt;&lt;p&gt;With Chinese OEMs pragmatically exploring hybrid options and a more favourable regulatory environment supporting long-term hybrid adoption, we expect the product battle to expand further starting this year.&lt;/p&gt;&lt;p&gt;&lt;b&gt;US:&amp;nbsp;Tariffs&amp;nbsp;and the affordability plateau&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Before tariffs, we anticipated an additional MSRP increase exceeding 4% on a volume-weighted average for 2026, driven by inflation. While OEMs swiftly implemented strategies to mitigate tariff costs, 2026 prices are expected to rise gradually as they increasingly shift their sales focus back to higher-margin ICE models. OEMs remain cautious about raising prices disproportionately on US customers, who already face affordability challenges.&lt;/p&gt;&lt;p&gt;On the EV front, planned price reductions are increasingly unlikely amid regulatory changes and softer demand. In this more lenient compliance environment, OEMs are expected to maximize profitability.&lt;/p&gt;&lt;p&gt;&lt;b&gt;China:&amp;nbsp;First signs of price stabilization and the&amp;nbsp;emergence of tech-premium pricing&lt;/b&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Chinese automakers are diversifying their pricing strategies&amp;mdash;both reducing prices to capture market share and successfully introducing higher-priced, tech-enhanced models. To counteract aggressive domestic price competition, manufacturers are increasingly adopting a &amp;quot;tech-premium&amp;quot; pricing approach, leveraging advanced technology and improved energy efficiency to sustain MSRP levels as hardware costs plateau.&amp;nbsp;&lt;/p&gt;&lt;p&gt;This shift aligns with heightened government oversight, including new regulations and subsidy adjustments aimed at discouraging price wars.&lt;/p&gt;&lt;p&gt;Early signs of price stabilization are emerging, particularly in the volume market, though competition remains intense.&amp;nbsp;Growing consumer acceptance of integrated technological ecosystems is strengthening bargaining power&amp;mdash;especially for NEVs.&lt;/p&gt;"/>
+            </section_content5>
+            <section_conclusion
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section"
+                model="section"
+                aueComponentId="section"
+                id="link6"
+                name="Section - Conclusion"
+                modelFields="[name@text,id@text,style@multiselect]">
+                <text
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/text/v1/text"
+                    aueComponentId="text"
+                    text="&lt;h4&gt;Conclusion&lt;/h4&gt;&lt;p&gt;Going forward, automakers who invest in regional production agility, tailor electrification strategies to local market realities, and capitalize on emerging tech-driven consumer preferences will be best positioned to thrive amid the industry&apos;s shifting landscape.&lt;/p&gt;"/>
+            </section_conclusion>
+            <section_cta
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section"
+                model="section"
+                aueComponentId="section"
+                id="link7"
+                name="Section - CTA"
+                modelFields="[name@text,id@text,style@multiselect]">
+                <text
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/text/v1/text"
+                    aueComponentId="text"
+                    text="&lt;h4&gt;Drive decisions with unmatched industry intelligence&lt;/h4&gt;&lt;p&gt;Stay ahead of the trends shaping the 2026 automotive industry outlook with exclusive access to S&amp;amp;P Global Mobility&apos;s data. Request a complimentary sample of our seven-year global light vehicle sales forecast&amp;mdash;updated twice quarterly and grounded in a decade of historical analysis&amp;mdash;to track segment growth, technology adoption, and OEM performance across 145+ countries.&lt;/p&gt;&lt;p&gt;For a deeper understanding of market dynamics, explore our monthly-updated production forecast, featuring future vehicle cycle plans, projected volumes, and plant capacity&amp;nbsp;utilization&amp;nbsp;across 50+ countries and 900+ manufacturing plants. Empower your strategic decisions with the data and insights behind our industry&amp;nbsp;outlook.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.spglobal.com/automotive-insights/en/data/light-vehicle-sales-forecast#downloadDataSample&quot;&gt;Download Sample: Light Vehicle Sales Forecast&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.spglobal.com/automotive-insights/en/data/light-vehicle-production-forecast#downloadDataSample&quot;&gt;Download Sample: Light Vehicle Production Forecast&lt;/a&gt;&lt;/p&gt;"/>
+                <text_disclaimer
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/text/v1/text"
+                    aueComponentId="text"
+                    text="&lt;p&gt;&lt;em&gt;This article was published by S&amp;amp;P Global Mobility and not by S&amp;amp;P Global Ratings, which is a separately managed division of S&amp;amp;P Global.&lt;/em&gt;&lt;/p&gt;"/>
+            </section_cta>
+        </root>
+    </jcr:content>
+</jcr:root>
