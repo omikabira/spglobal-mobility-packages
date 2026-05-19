@@ -1,0 +1,205 @@
+CSV Value,Property,Slug,Resolution,AEM Tag Path,Times Used
+Short-form article,contentFormat,short-form-article,RESOLVED,mobility-global:system-and-structural-tags/content-formats/written-formats/short-form-article,425
+Analysis and reports,insightsThoughtLeaderContentType,analysis-and-reports,RESOLVED,mobility-global:insights-and-intelligence/insight-and-thought-leader-content-type/analysis-and-reports,406
+Automotive OEMs,industrySector,automotive-oems,RESOLVED,mobility-global:contextual-variables/segmentation-and-user-context/industry-or-sector/automotive-oems,379
+Planning solutions,pillars,planning-solutions,RESOLVED,mobility-global:pillars/planning-solutions,363
+Market news and updates,insightsThoughtLeaderContentType,market-news-and-updates,RESOLVED,mobility-global:insights-and-intelligence/insight-and-thought-leader-content-type/market-news-and-updates,249
+Automotive industry forecast and analysis,theme,automotive-industry-forecast-and-analysis,RESOLVED,mobility-global:insights-and-intelligence/topic/industry-benchmarks/automotive-industry-forecast-and-analysis,149
+Market analyst,audienceRole,market-analyst,RESOLVED,mobility-global:contextual-variables/segmentation-and-user-context/audience-role/marketing-and-commercial-roles/market-analyst,147
+OEM strategist,audienceRole,oem-strategist,RESOLVED,mobility-global:contextual-variables/segmentation-and-user-context/audience-role/oem-and-supplier-roles/oem-strategist,118
+Sales solutions,pillars,sales-solutions,RESOLVED,mobility-global:pillars/sales-solutions,113
+Automotive suppliers and supply chain,industrySector,automotive-suppliers-and-supply-chain,RESOLVED,mobility-global:contextual-variables/segmentation-and-user-context/industry-or-sector/automotive-suppliers-and-supply-chain,106
+North America,marketRegion,north-america,RESOLVED,mobility-global:contextual-variables/market-context/market-sales-region/north-america,103
+United States,marketCountry,united-states,RESOLVED,mobility-global:contextual-variables/market-context/market-country/united-states,98
+North America,marketSalesRegion,north-america,RESOLVED,mobility-global:contextual-variables/market-context/market-sales-region/north-america,95
+Product planner,audienceRole,product-planner,RESOLVED,mobility-global:contextual-variables/segmentation-and-user-context/audience-role/oem-and-supplier-roles/product-planner,86
+Automotive industry forecast and analysis,topic,automotive-industry-forecast-and-analysis,RESOLVED,mobility-global:insights-and-intelligence/topic/industry-benchmarks/automotive-industry-forecast-and-analysis,84
+Automotive consumer trends,theme,automotive-consumer-trends,RESOLVED,mobility-global:insights-and-intelligence/theme/automotive-consumer-trends,78
+Electric vehicle industry,theme,electric-vehicle-industry,RESOLVED,mobility-global:insights-and-intelligence/theme/electric-vehicles,68
+Government / policy maker,audienceRole,government-/-policy-maker,RESOLVED,mobility-global:contextual-variables/segmentation-and-user-context/audience-role/regulatory-risk-and-policy-roles/government-or-policy-maker,65
+Supply chain analyst,audienceRole,supply-chain-analyst,RESOLVED,mobility-global:contextual-variables/segmentation-and-user-context/audience-role/oem-and-supplier-roles/supply-chain-analyst,61
+Automotive dealers and retailers,industrySector,automotive-dealers-and-retailers,RESOLVED,mobility-global:contextual-variables/segmentation-and-user-context/industry-or-sector/automotive-dealers-and-retailers,61
+Automotive supply chain,theme,automotive-supply-chain,RESOLVED,mobility-global:insights-and-intelligence/theme/automotive-supply-chain,57
+Technical specialists,audienceRole,technical-specialists,RESOLVED,mobility-global:contextual-variables/segmentation-and-user-context/audience-role/oem-and-supplier-roles/technical-specialists,56
+Policy,regulatoryContext,policy,RESOLVED,mobility-global:contextual-variables/regulatory-and-operating-context/regulatory-context/policy,54
+Dealer / retailer,audienceRole,dealer-/-retailer,RESOLVED,mobility-global:contextual-variables/segmentation-and-user-context/audience-role/retail-dealer-aftermarket-roles/dealer-or-retailer,53
+Dealer and retail trends,topic,dealer-and-retail-trends,RESOLVED,mobility-global:insights-and-intelligence/topic/market-themes-or-analytical-topics/dealer-and-retail-trends,49
+Future of mobility,theme,future-of-mobility,RESOLVED,mobility-global:insights-and-intelligence/theme/future-of-mobility,46
+Data and forecasts,insightsThoughtLeaderContentType,data-and-forecasts,RESOLVED,mobility-global:insights-and-intelligence/insight-and-thought-leader-content-type/data-and-forecasts,44
+Competitive landscape,topic,competitive-landscape,RESOLVED,mobility-global:insights-and-intelligence/topic/market-themes-or-analytical-topics/competitive-landscape,40
+Automotive tariffs,theme,automotive-tariffs,RESOLVED,mobility-global:insights-and-intelligence/theme/automotive-tariffs,38
+Automotive supply chain disruption and resilience,topic,automotive-supply-chain-disruption-and-resilience,RESOLVED,mobility-global:insights-and-intelligence/topic/supply-chain-and-manufacturing/automotive-supply-chain-disruption-and-resilience,38
+Automotive tariffs and trade policy,topic,automotive-tariffs-and-trade-policy,RESOLVED,mobility-global:insights-and-intelligence/topic/macro-economic-drivers/automotive-tariffs-and-trade-policy,38
+EV adoption,topic,ev-adoption,RESOLVED,mobility-global:insights-and-intelligence/topic/electrification/ev-adoption,36
+Light vehicles,vehicleTypeSegment,light-vehicles,RESOLVED,mobility-global:contextual-variables/segmentation-and-user-context/vehicle-type-or-segment/light-vehicles,34
+Pricing trends,topic,pricing-trends,RESOLVED,mobility-global:insights-and-intelligence/topic/market-themes-or-analytical-topics/pricing-trends,32
+Supply chain resilience,theme,supply-chain-resilience,RESOLVED,mobility-global:insights-and-intelligence/theme/supply-chain-resilience,31
+Downloadable asset,assetAttributes,downloadable-asset,RESOLVED,mobility-global:system-and-structural-tags/asset-attributes-structural-attributes-or-delivery-mechanisms/downloadable-asset,29
+Fleet management and leasing,industrySector,fleet-management-and-leasing,RESOLVED,mobility-global:contextual-variables/segmentation-and-user-context/industry-or-sector/fleet-management-and-leasing,29
+Competitive intelligence,audienceRole,competitive-intelligence,RESOLVED,mobility-global:contextual-variables/segmentation-and-user-context/audience-role/oem-and-supplier-roles/competitive-intelligence,28
+Market volatility trends,topic,market-volatility-trends,RESOLVED,mobility-global:insights-and-intelligence/topic/market-themes-or-analytical-topics/market-volatility-trends,28
+Report / whitepaper (PDF),contentFormat,report-/-whitepaper-pdf,RESOLVED,mobility-global:system-and-structural-tags/content-formats/written-formats/report-or-whitepaper-pdf,27
+Loyalty,productFamily,loyalty,RESOLVED,mobility-global:products-and-platforms/product-families/loyalty,26
+Autonomous vehicles and ADAS,topic,autonomous-vehicles-and-adas,RESOLVED,mobility-global:insights-and-intelligence/topic/technology-and-innovation/autonomous-vehicles-and-adas,26
+Regulations and compliance,topic,regulations-and-compliance,RESOLVED,mobility-global:insights-and-intelligence/topic/risk-safety-and-compliance/regulations-and-compliance,26
+Procurement,audienceRole,procurement,RESOLVED,mobility-global:contextual-variables/segmentation-and-user-context/audience-role/oem-and-supplier-roles/procurement,25
+Software-defined vehicles,theme,software-defined-vehicles,RESOLVED,mobility-global:insights-and-intelligence/theme/software-defined-vehicles,25
+Market Scan,brandDataSource,market-scan,RESOLVED,mobility-global:system-and-structural-tags/brand-or-data-source/market-scan,24
+Polk Automotive Solutions,brandDataSource,polk-automotive-solutions,RESOLVED,mobility-global:system-and-structural-tags/brand-or-data-source/polk-automotive-solutions,24
+Mainland China,marketCountry,mainland-china,RESOLVED,mobility-global:contextual-variables/market-context/market-country/mainland-china,24
+Commercial vehicle market,theme,commercial-vehicle-market,RESOLVED,mobility-global:insights-and-intelligence/theme/commercial-vehicle-market,24
+Market segmentation insights,topic,market-segmentation-insights,RESOLVED,mobility-global:insights-and-intelligence/topic/market-themes-or-analytical-topics/market-segmentation-insights,23
+Automotive sustainability,theme,automotive-sustainability,RESOLVED,mobility-global:insights-and-intelligence/theme/automotive-sustainability,22
+Consumer behavior insights,topic,consumer-behavior-insights,RESOLVED,mobility-global:insights-and-intelligence/topic/market-themes-or-analytical-topics/consumer-behavior-insights,22
+EV battery technology,topic,ev-battery-technology,RESOLVED,mobility-global:insights-and-intelligence/topic/electrification/ev-battery-technology,21
+Software defined vehicles (SDV),topic,software-defined-vehicles-sdv,RESOLVED,mobility-global:insights-and-intelligence/topic/technology-and-innovation/software-defined-vehicles-sdv,21
+Leasing / financial services,audienceRole,leasing-/-financial-services,RESOLVED,mobility-global:contextual-variables/segmentation-and-user-context/audience-role/fleet-and-commercial-roles/leasing-or-financial-services,20
+EV battery technology,theme,ev-battery-technology,RESOLVED,mobility-global:insights-and-intelligence/topic/electrification/ev-battery-technology,20
+Loyalty,topic,loyalty,RESOLVED,mobility-global:products-and-platforms/product-families/loyalty,19
+Automotive semiconductors,topic,automotive-semiconductors,RESOLVED,mobility-global:insights-and-intelligence/topic/technology-and-innovation/automotive-semiconductors,18
+Electric vehicles (EVs),vehicleTypeSegment,electric-vehicles-evs,RESOLVED,mobility-global:contextual-variables/segmentation-and-user-context/vehicle-type-or-segment/electric-vehicles-evs,18
+Events and webinars,insightsThoughtLeaderContentType,events-and-webinars,RESOLVED,mobility-global:insights-and-intelligence/insight-and-thought-leader-content-type/events-and-webinars,17
+Greater China,marketRegion,greater-china,RESOLVED,mobility-global:contextual-variables/market-context/market-sales-region/greater-china,17
+Greater China,marketSalesRegion,greater-china,RESOLVED,mobility-global:contextual-variables/market-context/market-sales-region/greater-china,17
+Global automotive markets,topic,global-automotive-markets,RESOLVED,mobility-global:insights-and-intelligence/topic/market-themes-or-analytical-topics/global-automotive-markets,17
+Plan and forecast,workflowStage,plan-and-forecast,RESOLVED,mobility-global:system-and-structural-tags/workflow-stage-how-i-do-it/plan-and-forecast,17
+Forecasting and planning,productFamily,forecasting-and-planning,RESOLVED,mobility-global:products-and-platforms/product-families/forecasting-and-planning,16
+Emissions standards,regulatoryContext,emissions-standards,RESOLVED,mobility-global:contextual-variables/regulatory-and-operating-context/regulatory-context/emissions-standards,16
+Marketing and media agencies,audienceRole,marketing-and-media-agencies,RESOLVED,mobility-global:contextual-variables/segmentation-and-user-context/audience-role/marketing-and-commercial-roles/marketing-and-media-agencies,15
+Customer education / enablement,campaignType,customer-education-/-enablement,RESOLVED,mobility-global:system-and-structural-tags/campaign-type/customer-education-or-enablement,15
+Automotive consumer demand,topic,automotive-consumer-demand,RESOLVED,mobility-global:insights-and-intelligence/topic/market-themes-or-analytical-topics/automotive-consumer-demand,15
+Connected cars and vehicles,topic,connected-cars-and-vehicles,RESOLVED,mobility-global:insights-and-intelligence/topic/technology-and-innovation/connected-cars-and-vehicles,15
+Vehicle production forecasts,topic,vehicle-production-forecasts,RESOLVED,mobility-global:insights-and-intelligence/topic/industry-benchmarks/vehicle-production-forecasts,15
+Commercial vehicles,vehicleTypeSegment,commercial-vehicles,RESOLVED,mobility-global:contextual-variables/segmentation-and-user-context/vehicle-type-or-segment/commercial-vehicles,15
+Automotive sustainability and ESG,topic,automotive-sustainability-and-esg,RESOLVED,mobility-global:insights-and-intelligence/topic/sustainability-and-esg/automotive-sustainability-and-esg,14
+Plan the market,needStates,plan-the-market,RESOLVED,mobility-global:need-states/planning-solutions/plan-the-market,13
+Activate and execute,workflowStage,activate-and-execute,RESOLVED,mobility-global:system-and-structural-tags/workflow-stage-how-i-do-it/activate-and-execute,13
+India,marketCountry,india,RESOLVED,mobility-global:contextual-variables/market-context/market-country/india,12
+Automotive parts and components,topic,automotive-parts-and-components,RESOLVED,mobility-global:insights-and-intelligence/topic/supply-chain-and-manufacturing/automotive-parts-and-components,12
+Sales and marketing effectiveness,productFamily,sales-and-marketing-effectiveness,RESOLVED,mobility-global:products-and-platforms/product-families/sales-and-marketing-effectiveness,11
+Aftermarket provider,audienceRole,aftermarket-provider,RESOLVED,mobility-global:contextual-variables/segmentation-and-user-context/audience-role/retail-dealer-aftermarket-roles/aftermarket-provider,10
+Automotive aftermarket,industrySector,automotive-aftermarket,RESOLVED,mobility-global:contextual-variables/segmentation-and-user-context/industry-or-sector/automotive-aftermarket,10
+Plan the vehicle,needStates,plan-the-vehicle,RESOLVED,mobility-global:need-states/planning-solutions/plan-your-future-vehicle,10
+Technology and electrification intelligence,productFamily,technology-and-electrification-intelligence,RESOLVED,mobility-global:products-and-platforms/product-families/technology-and-electrification-intelligence,10
+Europe,marketRegion,europe,RESOLVED,mobility-global:contextual-variables/market-context/market-region/europe,9
+EV charging infrastructure,topic,ev-charging-infrastructure,RESOLVED,mobility-global:insights-and-intelligence/topic/electrification/ev-charging-infrastructure,9
+Macro-economic drivers,topic,macro-economic-drivers,RESOLVED,mobility-global:insights-and-intelligence/topic/macro-economic-drivers,9
+Forecast model,assetAttributes,forecast-model,RESOLVED,mobility-global:system-and-structural-tags/asset-attributes-structural-attributes-or-delivery-mechanisms/forecast-model,8
+Fleet manager,audienceRole,fleet-manager,RESOLVED,mobility-global:contextual-variables/segmentation-and-user-context/audience-role/fleet-and-commercial-roles/fleet-manager,8
+Demographic trends,topic,demographic-trends,RESOLVED,mobility-global:insights-and-intelligence/topic/market-themes-or-analytical-topics/demographic-trends,8
+Automotive supply chain risk management,topic,automotive-supply-chain-risk-management,RESOLVED,mobility-global:insights-and-intelligence/topic/supply-chain-and-manufacturing/automotive-supply-chain-risk-management,8
+Explore and understand,workflowStage,explore-and-understand,RESOLVED,mobility-global:system-and-structural-tags/workflow-stage-how-i-do-it/explore-and-understand,8
+Dataset,assetAttributes,dataset,RESOLVED,mobility-global:system-and-structural-tags/asset-attributes-structural-attributes-or-delivery-mechanisms/dataset,7
+Europe,marketSalesRegion,europe,RESOLVED,mobility-global:contextual-variables/market-context/market-region/europe,7
+Manage the supply chain,needStates,manage-the-supply-chain,RESOLVED,mobility-global:need-states/planning-solutions/manage-the-supply-chain,7
+Market outlook campaign,campaignType,market-outlook-campaign,RESOLVED,mobility-global:system-and-structural-tags/campaign-type/market-outlook-campaign,6
+Research drop,campaignType,research-drop,RESOLVED,mobility-global:system-and-structural-tags/campaign-type/research-drop,6
+Asses and react to the market,needStates,asses-and-react-to-the-market,RESOLVED,mobility-global:need-states/sales-solutions/asses-and-react-to-the-market,6
+Find the right customers,needStates,find-the-right-customers,RESOLVED,mobility-global:need-states/sales-solutions/find-the-right-customer,6
+Market and sales forecasting,productCapability,market-and-sales-forecasting,RESOLVED,mobility-global:products-and-platforms/product-capabilities/forecasting-and-modeling-capabilities/market-and-sales-forecasting,6
+Pricing and offer optimization,productFamily,pricing-and-offer-optimization,RESOLVED,mobility-global:products-and-platforms/product-families/pricing-and-offer-optimization,6
+Heavy-duty trucks,vehicleTypeSegment,heavy-duty-trucks,RESOLVED,mobility-global:contextual-variables/segmentation-and-user-context/vehicle-type-or-segment/heavy-duty-trucks,6
+Industry trend / thematic campaign,campaignType,industry-trend-/-thematic-campaign,RESOLVED,mobility-global:system-and-structural-tags/campaign-type/industry-trend-or-thematic-campaign,5
+Inform and activate the right offer,needStates,inform-and-activate-the-right-offer,RESOLVED,mobility-global:need-states/sales-solutions/inform-and-activate-the-right-offer,5
+Target business opportunities,needStates,target-business-opportunities,RESOLVED,mobility-global:need-states/planning-solutions/target-business-opportunities,5
+Scenario planning,productCapability,scenario-planning,RESOLVED,mobility-global:products-and-platforms/product-capabilities/forecasting-and-modeling-capabilities/scenario-planning,5
+Scenario planning insights,theme,scenario-planning-insights,RESOLVED,mobility-global:insights-and-intelligence/theme/scenario-planning-insights,5
+Used vehicles,vehicleTypeSegment,used-vehicles,RESOLVED,mobility-global:contextual-variables/segmentation-and-user-context/vehicle-type-or-segment/used-vehicles,5
+Business development,audienceRole,business-development,RESOLVED,mobility-global:contextual-variables/segmentation-and-user-context/audience-role/oem-and-supplier-roles/business-development,4
+Insurance analyst / underwriter,audienceRole,insurance-analyst-/-underwriter,RESOLVED,mobility-global:contextual-variables/segmentation-and-user-context/audience-role/regulatory-risk-and-policy-roles/insurance-analyst-or-underwriter,4
+Regulatory update,campaignType,regulatory-update,RESOLVED,mobility-global:system-and-structural-tags/campaign-type/regulatory-update,4
+Canada,marketCountry,canada,RESOLVED,mobility-global:contextual-variables/market-context/market-country/canada,4
+Pricing analytics,productCapability,pricing-analytics,RESOLVED,mobility-global:products-and-platforms/product-capabilities/pricing-and-offer-capabilities/pricing-analytics,4
+Supplier and component analysis,productCapability,supplier-and-component-analysis,RESOLVED,mobility-global:products-and-platforms/product-capabilities/technology-supply-chain-and-sustainability/supplier-and-component-analysis,4
+EV and electrification forecasting,productCapability,ev-and-electrification-forecasting,RESOLVED,mobility-global:products-and-platforms/product-capabilities/forecasting-and-modeling-capabilities/ev-and-electrification-forecasting,4
+Powertrain and propulsion forecasting,productCapability,powertrain-and-propulsion-forecasting,RESOLVED,mobility-global:products-and-platforms/product-capabilities/forecasting-and-modeling-capabilities/powertrain-and-propulsion-forecasting,4
+Sustainability and ESG analytics,productCapability,sustainability-and-esg-analytics,RESOLVED,mobility-global:products-and-platforms/product-capabilities/technology-supply-chain-and-sustainability/sustainability-and-esg-analytics,4
+Safety regulations,regulatoryContext,safety-regulations,RESOLVED,mobility-global:contextual-variables/regulatory-and-operating-context/regulatory-context/safety-regulations,4
+Regulatory context,regulatoryContext,regulatory-context,RESOLVED,mobility-global:contextual-variables/regulatory-and-operating-context/regulatory-context,4
+"Risk, safety and compliance",topic,risk-safety-and-compliance,RESOLVED,mobility-global:insights-and-intelligence/topic/risk-safety-and-compliance,4
+"Mobility business models (Subscription, MaaS)",topic,mobility-business-models-subscription-maas,RESOLVED,mobility-global:insights-and-intelligence/topic/technology-and-innovation/mobility-business-models-subscription-maas,4
+Automotive supply chain,topic,automotive-supply-chain,RESOLVED,mobility-global:insights-and-intelligence/theme/automotive-supply-chain,4
+Hybrid vehicles,vehicleTypeSegment,hybrid-vehicles,RESOLVED,mobility-global:contextual-variables/segmentation-and-user-context/vehicle-type-or-segment/hybrid-vehicles,4
+Performance vehicles,vehicleTypeSegment,performance-vehicles,RESOLVED,mobility-global:contextual-variables/segmentation-and-user-context/vehicle-type-or-segment/performance-vehicles,4
+Diagnose and compare,workflowStage,diagnose-and-compare,RESOLVED,mobility-global:system-and-structural-tags/workflow-stage-how-i-do-it/diagnose-and-compare,4
+Germany,marketCountry,germany,RESOLVED,mobility-global:contextual-variables/market-context/market-country/germany,3
+Japan/Korea,marketRegion,japan/korea,RESOLVED,mobility-global:contextual-variables/market-context/market-region/japan-korea,3
+Japan/Korea,marketSalesRegion,japan/korea,RESOLVED,mobility-global:contextual-variables/market-context/market-sales-region/japan-korea,3
+Incentive optimization,productCapability,incentive-optimization,RESOLVED,mobility-global:products-and-platforms/product-capabilities/pricing-and-offer-capabilities/incentive-optimization,3
+Technology and feature forecasting,productCapability,technology-and-feature-forecasting,RESOLVED,mobility-global:products-and-platforms/product-capabilities/forecasting-and-modeling-capabilities/technology-and-feature-forecasting,3
+Market trend and performance analysis,productCapability,market-trend-and-performance-analysis,RESOLVED,mobility-global:products-and-platforms/product-capabilities/benchmarking-and-market-performance/market-trend-and-performance-analysis,3
+Production forecasting,productCapability,production-forecasting,RESOLVED,mobility-global:products-and-platforms/product-capabilities/forecasting-and-modeling-capabilities/production-forecasting,3
+Aftermarket parts and components,topic,aftermarket-parts-and-components,RESOLVED,mobility-global:insights-and-intelligence/topic/supply-chain-and-manufacturing/automotive-parts-and-components,3
+Autonomous vehicles (AVs),vehicleTypeSegment,autonomous-vehicles-avs,RESOLVED,mobility-global:contextual-variables/segmentation-and-user-context/vehicle-type-or-segment/autonomous-vehicles-avs,3
+New vehicles,vehicleTypeSegment,new-vehicles,RESOLVED,mobility-global:contextual-variables/segmentation-and-user-context/vehicle-type-or-segment/new-vehicles,3
+Monitor and optimize,workflowStage,monitor-and-optimize,RESOLVED,mobility-global:system-and-structural-tags/workflow-stage-how-i-do-it/monitor-and-optimize,3
+Sector and company analysts,audienceRole,sector-and-company-analysts,RESOLVED,mobility-global:contextual-variables/segmentation-and-user-context/audience-role/financial-and-professional-services/sector-and-company-analysts,2
+Annual outlook,campaignType,annual-outlook,RESOLVED,mobility-global:system-and-structural-tags/campaign-type/annual-outlook,2
+Event campaign,campaignType,event-campaign,RESOLVED,mobility-global:system-and-structural-tags/campaign-type/event-campaign,2
+On-demand webinar,contentFormat,on-demand-webinar,RESOLVED,mobility-global:system-and-structural-tags/content-formats/event-formats/on-demand-webinar,2
+Case studies,insightsThoughtLeaderContentType,case-studies,RESOLVED,mobility-global:insights-and-intelligence/insight-and-thought-leader-content-type/case-studies,2
+Mexico,marketCountry,mexico,RESOLVED,mobility-global:contextual-variables/market-context/market-country/mexico,2
+Japan,marketCountry,japan,RESOLVED,mobility-global:contextual-variables/market-context/market-country/japan,2
+Australia,marketCountry,australia,RESOLVED,mobility-global:contextual-variables/market-context/market-country/australia,2
+Planning solutiong,pillars,planning-solutiong,RESOLVED,mobility-global:pillars/planning-solutions,2
+Market demand modeling,productCapability,market-demand-modeling,RESOLVED,mobility-global:products-and-platforms/product-capabilities/forecasting-and-modeling-capabilities/market-demand-modeling,2
+Benchmarking and market performance,productFamily,benchmarking-and-market-performance,RESOLVED,mobility-global:products-and-platforms/product-families/benchmarking-and-market-performance,2
+Data privacy,regulatoryContext,data-privacy,RESOLVED,mobility-global:contextual-variables/regulatory-and-operating-context/regulatory-context/data-privacy,2
+Fuel economy standards,regulatoryContext,fuel-economy-standards,RESOLVED,mobility-global:contextual-variables/regulatory-and-operating-context/regulatory-context/fuel-economy-standards,2
+Technology and innovation,topic,technology-and-innovation,RESOLVED,mobility-global:insights-and-intelligence/topic/technology-and-innovation,2
+Automotive consumer trends,topic,automotive-consumer-trends,RESOLVED,mobility-global:insights-and-intelligence/theme/automotive-consumer-trends,2
+Automotive circular economy,topic,automotive-circular-economy,RESOLVED,mobility-global:insights-and-intelligence/topic/sustainability-and-esg/automotive-circular-economy,2
+Supply chain disruption and resilience,topic,supply-chain-disruption-and-resilience,RESOLVED,mobility-global:insights-and-intelligence/topic/supply-chain-and-manufacturing/automotive-supply-chain-disruption-and-resilience,2
+Vehicle residual value and lifecycle impact,topic,vehicle-residual-value-and-lifecycle-impact,RESOLVED,mobility-global:insights-and-intelligence/topic/sustainability-and-esg/vehicle-residual-value-and-lifecycle-impact,2
+Specialty vehicles,vehicleTypeSegment,specialty-vehicles,RESOLVED,mobility-global:contextual-variables/segmentation-and-user-context/vehicle-type-or-segment/specialty-vehicles,2
+Dashboard module,assetAttributes,dashboard-module,RESOLVED,mobility-global:system-and-structural-tags/asset-attributes-structural-attributes-or-delivery-mechanisms/dashboard-module,1
+Brand / awareness campaign,campaignType,brand-/-awareness-campaign,RESOLVED,mobility-global:system-and-structural-tags/campaign-type/brand-or-awareness-campaign,1
+Regional spotlight,campaignType,regional-spotlight,RESOLVED,mobility-global:system-and-structural-tags/campaign-type/regional-spotlight,1
+Long-form article,contentFormat,long-form-article,RESOLVED,mobility-global:system-and-structural-tags/content-formats/written-formats/long-form-article,1
+eBook (PDF),contentFormat,ebook-pdf,RESOLVED,mobility-global:system-and-structural-tags/content-formats/written-formats/ebook-pdf,1
+France,marketCountry,france,RESOLVED,mobility-global:contextual-variables/market-context/market-country/france,1
+South Korea,marketCountry,south-korea,RESOLVED,mobility-global:contextual-variables/market-context/market-country/south-korea,1
+Russia,marketCountry,russia,RESOLVED,mobility-global:contextual-variables/market-context/market-country/russia,1
+Turkey,marketCountry,turkey,RESOLVED,mobility-global:contextual-variables/market-context/market-country/turkey,1
+Italy,marketCountry,italy,RESOLVED,mobility-global:contextual-variables/market-context/market-country/italy,1
+China,marketCountry,china,SKIPPED,N/A (typo/invalid),1
+West Europe,marketRegion,west-europe,RESOLVED,mobility-global:contextual-variables/market-context/market-sales-region/west-europe,1
+Central Europe,marketSalesRegion,central-europe,RESOLVED,mobility-global:contextual-variables/market-context/market-sales-region/central-europe,1
+ASEAN,marketSalesRegion,asean,RESOLVED,mobility-global:contextual-variables/market-context/market-sales-region/asean,1
+Assess and react to the market,needStates,assess-and-react-to-the-market,RESOLVED,mobility-global:need-states/sales-solutions/asses-and-react-to-the-market,1
+Identify vehicle ownership and recall,needStates,identify-vehicle-ownership-and-recall,RESOLVED,mobility-global:need-states/sales-solutions/identify-vehicle-ownership-and-recall,1
+Analytics platform,platforms,analytics-platform,RESOLVED,mobility-global:products-and-platforms/platforms/analytics-platform,1
+Competitive benchmarking,productCapability,competitive-benchmarking,RESOLVED,mobility-global:products-and-platforms/product-capabilities/benchmarking-and-market-performance/competitive-benchmarking,1
+Compliance verification,productCapability,compliance-verification,RESOLVED,mobility-global:products-and-platforms/product-capabilities/risk-compliance-and-validation/compliance-verification,1
+Charging and infrastructure analysis,productCapability,charging-and-infrastructure-analysis,RESOLVED,mobility-global:products-and-platforms/product-capabilities/technology-supply-chain-and-sustainability/charging-and-infrastructure-analysis,1
+Credit and lending trends,productCapability,credit-and-lending-trends,RESOLVED,mobility-global:products-and-platforms/product-capabilities/vehicle-lifecycle-and-aftermarket-intelligence/credit-and-lending-trends,1
+Customer (1PD) data cleansing and enrichment,productCapability,customer-1pd-data-cleansing-and-enrichment,RESOLVED,mobility-global:products-and-platforms/product-capabilities/marketing-audiences-and-loyalty/customer-1pd-data-cleansing-and-enrichment,1
+Customer loyalty and retention analysis,productCapability,customer-loyalty-and-retention-analysis,RESOLVED,mobility-global:products-and-platforms/product-capabilities/marketing-audiences-and-loyalty/customer-loyalty-and-retention-analysis,1
+Return to market analysis,productCapability,return-to-market-analysis,RESOLVED,mobility-global:products-and-platforms/product-capabilities/benchmarking-and-market-performance/return-to-market-analysis,1
+Component forecasts,productCapability,component-forecasts,RESOLVED,mobility-global:products-and-platforms/product-capabilities/forecasting-and-modeling-capabilities/component-forecasts,1
+Share and mix analysis,productCapability,share-and-mix-analysis,RESOLVED,mobility-global:products-and-platforms/product-capabilities/benchmarking-and-market-performance/share-and-mix-analysis,1
+Inventory metrics and trends,productCapability,inventory-metrics-and-trends,RESOLVED,mobility-global:products-and-platforms/product-capabilities/vehicle-lifecycle-and-aftermarket-intelligence/inventory-metrics-and-trends,1
+Track days supply,productCapability,track-days-supply,RESOLVED,mobility-global:products-and-platforms/product-capabilities/vehicle-lifecycle-and-aftermarket-intelligence/track-days-supply,1
+Registration and sales benchmarking,productCapability,registration-and-sales-benchmarking,RESOLVED,mobility-global:products-and-platforms/product-capabilities/benchmarking-and-market-performance/registration-and-sales-benchmarking,1
+Vehicle identification,productCapability,vehicle-identification,RESOLVED,mobility-global:products-and-platforms/product-capabilities/risk-compliance-and-validation/vehicle-identification,1
+Risk and compliance management,productFamily,risk-and-compliance-management,RESOLVED,mobility-global:products-and-platforms/product-families/risk-and-compliance-management,1
+Services and advisory,productFamily,services-and-advisory,RESOLVED,mobility-global:products-and-platforms/product-families/services-and-advisory,1
+Consumer and audience intelligence,productFamily,consumer-and-audience-intelligence,RESOLVED,mobility-global:products-and-platforms/product-families/consumer-and-audience-intelligence,1
+Vehicle lifecycle and aftermarket intelligence,productFamily,vehicle-lifecycle-and-aftermarket-intelligence,RESOLVED,mobility-global:products-and-platforms/product-families/vehicle-lifecycle-and-aftermarket-intelligence,1
+Recall requirements,regulatoryContext,recall-requirements,RESOLVED,mobility-global:contextual-variables/regulatory-and-operating-context/regulatory-context/recall-requirements,1
+Compliance advisory,servicesAdvisory,compliance-advisory,RESOLVED,mobility-global:products-and-platforms/services-and-advisory/compliance-advisory,1
+Global automotive markets,theme,global-automotive-markets,RESOLVED,mobility-global:insights-and-intelligence/topic/market-themes-or-analytical-topics/global-automotive-markets,1
+Automotive industry inventory inventory analysis,theme,automotive-industry-inventory-inventory-analysis,SKIPPED,N/A (typo/invalid),1
+Dealer / retailer blogs resilience,theme,dealer-/-retailer-blogs-resilience,SKIPPED,N/A (typo/invalid),1
+Automotive supply blogs,theme,automotive-supply-blogs,SKIPPED,N/A (typo/invalid),1
+Automotive supply chain disruption and resilience,theme,automotive-supply-chain-disruption-and-resilience,RESOLVED,mobility-global:insights-and-intelligence/topic/supply-chain-and-manufacturing/automotive-supply-chain-disruption-and-resilience,1
+Automotive supply chain risk management,theme,automotive-supply-chain-risk-management,RESOLVED,mobility-global:insights-and-intelligence/topic/supply-chain-and-manufacturing/automotive-supply-chain-risk-management,1
+Suppy chain resilience,theme,suppy-chain-resilience,RESOLVED,mobility-global:insights-and-intelligence/theme/supply-chain-resilience,1
+Vehicle recalls and safety,topic,vehicle-recalls-and-safety,RESOLVED,mobility-global:insights-and-intelligence/topic/risk-safety-and-compliance/vehicle-recalls-and-safety,1
+Software-defined vehicles,topic,software-defined-vehicles,RESOLVED,mobility-global:insights-and-intelligence/theme/software-defined-vehicles,1
+Electric vehicle industry,topic,electric-vehicle-industry,RESOLVED,mobility-global:insights-and-intelligence/theme/electric-vehicles,1
+Supply chain risk management,topic,supply-chain-risk-management,RESOLVED,mobility-global:insights-and-intelligence/topic/supply-chain-and-manufacturing/automotive-supply-chain-risk-management,1
+CO2 and fuel economy modeling,topic,co2-and-fuel-economy-modeling,RESOLVED,mobility-global:insights-and-intelligence/topic/sustainability-and-esg/co2-and-fuel-economy-modeling,1
+Internal combustion engine vehicles (ICE),vehicleTypeSegment,internal-combustion-engine-vehicles-ice,RESOLVED,mobility-global:contextual-variables/segmentation-and-user-context/vehicle-type-or-segment/internal-combustion-engine-vehicles-ice,1
+Fleet / rental,vehicleTypeSegment,fleet-/-rental,RESOLVED,mobility-global:contextual-variables/segmentation-and-user-context/vehicle-type-or-segment/fleet-or-rental,1
+Support vehicles on the road,workflowStage,support-vehicles-on-the-road,RESOLVED,mobility-global:system-and-structural-tags/workflow-stage-how-i-do-it/support-vehicles-on-the-road,1
