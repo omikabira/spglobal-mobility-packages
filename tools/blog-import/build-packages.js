@@ -59,11 +59,13 @@ function get(url, dest) {
   const reqUrl = encodeURI(decodeURIComponent(pathPart)) + queryPart;
   return new Promise((resolve, reject) => {
     const file = fs.createWriteStream(dest);
-    https.get(reqUrl, { headers: { 'User-Agent': 'Mozilla/5.0' } }, (res) => {
-      if (res.statusCode !== 200) { file.close(); fs.unlinkSync(dest); return reject(new Error('HTTP ' + res.statusCode + ' for ' + reqUrl)); }
+    const req = https.get(reqUrl, { headers: { 'User-Agent': 'Mozilla/5.0' } }, (res) => {
+      if (res.statusCode !== 200) { file.close(); try { fs.unlinkSync(dest); } catch (_) {} return reject(new Error('HTTP ' + res.statusCode + ' for ' + reqUrl)); }
       res.pipe(file);
       file.on('finish', () => file.close(() => resolve(dest)));
-    }).on('error', (e) => { try { fs.unlinkSync(dest); } catch (_) {} reject(e); });
+    });
+    req.setTimeout(20000, () => { req.destroy(new Error('timeout ' + reqUrl)); });
+    req.on('error', (e) => { try { fs.unlinkSync(dest); } catch (_) {} reject(e); });
   });
 }
 
@@ -180,6 +182,7 @@ function buildPageXml(p) {
     x += `                    authorVariation="page-url"\n`;
     x += `                    authorName="${xmlAttr(a.name)}"\n`;
     if (a.href) x += `                    authorLink="${xmlAttr(a.href)}"\n`;
+    if (p.authorProfileLink) x += `                    authorProfileLink="${xmlAttr(p.authorProfileLink)}"\n`;
     if (authorImg) x += `                    authorImage="${xmlAttr(authorImg)}"\n`;
     x += `                    showTimeToRead="no" showTags="no" showInsightsThoughtLeaderContentType="yes"\n`;
     x += `                    showTopic="yes" showTheme="yes" showSeries="yes" showRegionMarket="yes" showEventFormat="yes"\n`;
@@ -271,17 +274,20 @@ const SKIP_ASSETS = process.env.SKIP_ASSETS === '1';
   }
   const tmp = path.join(OUT, 'img-tmp');
   mkdirp(tmp);
-  let ok = 0, skip = 0;
+  let ok = 0, skip = 0, idx = 0;
+  const total = assets.size;
   for (const a of assets.values()) {
+    idx++;
     const assetDir = path.join(assetsPkg, 'jcr_root' + a.damPath);
-    if (!a.downloadUrl) { console.log('SKIP (no source binary): ' + a.damPath + '  <- ' + a.src); skip++; continue; }
+    if (!a.downloadUrl) { console.log(`[${idx}/${total}] SKIP (no source binary): ` + a.fileName); skip++; continue; }
     const tmpFile = path.join(tmp, a.fileName);
-    try {
-      await get(a.downloadUrl, tmpFile);
-    } catch (e) {
-      console.log('FAIL download ' + a.downloadUrl + ' : ' + e.message);
-      skip++; continue;
+    let okDl = false;
+    for (let attempt = 1; attempt <= 2 && !okDl; attempt++) {
+      try { await get(a.downloadUrl, tmpFile); okDl = true; }
+      catch (e) { if (attempt === 2) console.log(`[${idx}/${total}] FAIL ` + a.fileName + ' : ' + e.message); }
     }
+    if (!okDl) { skip++; continue; }
+    console.log(`[${idx}/${total}] ok ` + a.fileName);
     writeFile(path.join(assetDir, '.content.xml'), assetContentXml());
     // original rendition (binary)
     const rend = path.join(assetDir, '_jcr_content', 'renditions');
