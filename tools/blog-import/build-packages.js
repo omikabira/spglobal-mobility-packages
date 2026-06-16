@@ -236,7 +236,9 @@ const pagesPkg = path.join(OUT, 'pages-pkg');
 fs.rmSync(pagesPkg, { recursive: true, force: true });
 const pageFilters = [];
 for (const p of pages) {
-  const pagePath = `${PAGE_BASE}/${p.year}/${p.month}/${p.slug}`;
+  // jcrPath lets a page opt out of the default /blogs/{year}/{month}/{slug} layout
+  // (e.g. rapid-impact-analysis lives at a flat path with no year/month)
+  const pagePath = p.jcrPath || `${PAGE_BASE}/${p.year}/${p.month}/${p.slug}`;
   pageFilters.push(pagePath);
   writeFile(path.join(pagesPkg, 'jcr_root' + pagePath, '.content.xml'), buildPageXml(p));
 }
