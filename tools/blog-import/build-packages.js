@@ -10,8 +10,9 @@ const https = require('https');
 const { execSync } = require('child_process');
 
 const ROOT = '/workspace/current/tools/blog-import';
-const EXTRACT = path.join(ROOT, 'extract');
+const EXTRACT = path.join(ROOT, process.env.EXTRACT_DIR || 'extract');
 const OUT = path.join(ROOT, 'build');
+const PKG_BASE = process.env.PKG_BASE || 'mobility-global-blogs-may2026';
 const DAM_BASE = '/content/dam/mobility-global/en-us/blogs';
 const PAGE_BASE = '/content/mobility-global/en-us/automotive-insights/blogs';
 const TEMPLATE = '/conf/mobilityglobal/settings/wcm/templates/insight-details';
@@ -85,8 +86,10 @@ function contentFormatTag(taxonomy) {
 
 // ---- gather image map -------------------------------------------------------
 const pages = [];
-for (let i = 1; i <= 7; i++) {
-  pages.push(JSON.parse(fs.readFileSync(path.join(EXTRACT, `page${i}.json`), 'utf8')));
+const pageFiles = fs.readdirSync(EXTRACT).filter(f => /^page\d+\.json$/.test(f))
+  .sort((a, b) => parseInt(a.match(/\d+/)[0]) - parseInt(b.match(/\d+/)[0]));
+for (const f of pageFiles) {
+  pages.push(JSON.parse(fs.readFileSync(path.join(EXTRACT, f), 'utf8')));
 }
 
 // imageMap: scene7-src (no query) -> { damPath, file, downloadUrl }
@@ -238,7 +241,7 @@ for (const p of pages) {
   writeFile(path.join(pagesPkg, 'jcr_root' + pagePath, '.content.xml'), buildPageXml(p));
 }
 // folder .content.xml for cq:Page ancestors so nodes type correctly is not required with replace mode at leaf
-writeVault(pagesPkg, 'mobility-global-blogs-may2026-pages', pageFilters.map(r => ({ root: r, mode: 'replace' })));
+writeVault(pagesPkg, PKG_BASE + '-pages', pageFilters.map(r => ({ root: r, mode: 'replace' })));
 
 // ---- write assets package ---------------------------------------------------
 const assetsPkg = path.join(OUT, 'assets-pkg');
@@ -259,7 +262,7 @@ const SKIP_ASSETS = process.env.SKIP_ASSETS === '1';
 
 (async () => {
   if (SKIP_ASSETS) {
-    zip(pagesPkg, path.join(OUT, 'mobility-global-blogs-may2026-pages.zip'));
+    zip(pagesPkg, path.join(OUT, PKG_BASE + '-pages.zip'));
     console.log(`\nContent-only build. Pages reference DAM paths under ${DAM_BASE} (binaries not shipped).`);
     console.log(`Unique image DAM paths referenced: ${assets.size}`);
     return;
@@ -286,13 +289,13 @@ const SKIP_ASSETS = process.env.SKIP_ASSETS === '1';
     fs.copyFileSync(tmpFile, path.join(rend, 'cq5dam.web.1280.1280.jpeg'));
     ok++;
   }
-  writeVault(assetsPkg, 'mobility-global-blogs-may2026-assets', [{ root: DAM_BASE, mode: 'merge' }]);
+  writeVault(assetsPkg, PKG_BASE + '-assets', [{ root: DAM_BASE, mode: 'merge' }]);
   console.log(`\nAssets: ${ok} downloaded, ${skip} skipped.`);
   console.log(`Total unique asset paths: ${assets.size}`);
 
   // zip both
-  zip(pagesPkg, path.join(OUT, 'mobility-global-blogs-may2026-pages.zip'));
-  zip(assetsPkg, path.join(OUT, 'mobility-global-blogs-may2026-assets.zip'));
+  zip(pagesPkg, path.join(OUT, PKG_BASE + '-pages.zip'));
+  zip(assetsPkg, path.join(OUT, PKG_BASE + '-assets.zip'));
   console.log('\nDone.');
 })();
 
