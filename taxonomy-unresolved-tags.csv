@@ -1,0 +1,27 @@
+Property,CSV Value,Attempted Slug,Times Used,Suggested Fix
+theme,Electric vehicle industry,electric-vehicle-industry,68,Tag may not exist in AEM tag tree - needs creation
+audienceRole,Government / policy maker,government-/-policy-maker,65,Tag may not exist in AEM tag tree - needs creation
+audienceRole,Dealer / retailer,dealer-/-retailer,53,Tag may not exist in AEM tag tree - needs creation
+contentFormat,Report / whitepaper (PDF),report-/-whitepaper-pdf,27,Tag may not exist in AEM tag tree - needs creation
+audienceRole,Leasing / financial services,leasing-/-financial-services,20,Tag may not exist in AEM tag tree - needs creation
+campaignType,Customer education / enablement,customer-education-/-enablement,15,Tag may not exist in AEM tag tree - needs creation
+needStates,Plan the vehicle,plan-the-vehicle,10,Tag may not exist in AEM tag tree - needs creation
+needStates,Find the right customers,find-the-right-customers,6,Tag may not exist in AEM tag tree - needs creation
+campaignType,Industry trend / thematic campaign,industry-trend-/-thematic-campaign,5,Tag may not exist in AEM tag tree - needs creation
+audienceRole,Insurance analyst / underwriter,insurance-analyst-/-underwriter,4,Tag may not exist in AEM tag tree - needs creation
+topic,Aftermarket parts and components,aftermarket-parts-and-components,3,Tag may not exist in AEM tag tree - needs creation
+marketSalesRegion,Japan/Korea,japan/korea,3,Tag may not exist in AEM tag tree - needs creation
+marketRegion,Japan/Korea,japan/korea,3,Tag may not exist in AEM tag tree - needs creation
+topic,Supply chain disruption and resilience,supply-chain-disruption-and-resilience,2,Tag may not exist in AEM tag tree - needs creation
+pillars,Planning solutiong,planning-solutiong,2,TYPO in CSV data
+topic,Electric vehicle industry,electric-vehicle-industry,1,Tag may not exist in AEM tag tree - needs creation
+topic,Supply chain risk management,supply-chain-risk-management,1,Tag may not exist in AEM tag tree - needs creation
+campaignType,Brand / awareness campaign,brand-/-awareness-campaign,1,Tag may not exist in AEM tag tree - needs creation
+vehicleTypeSegment,Fleet / rental,fleet-/-rental,1,Tag may not exist in AEM tag tree - needs creation
+theme,Automotive industry inventory inventory analysis,automotive-industry-inventory-inventory-analysis,1,Tag may not exist in AEM tag tree - needs creation
+theme,Dealer / retailer blogs resilience,dealer-/-retailer-blogs-resilience,1,TYPO in CSV data
+theme,Automotive supply blogs,automotive-supply-blogs,1,TYPO in CSV data
+marketRegion,JapanKorea,japankorea,1,Tag may not exist in AEM tag tree - needs creation
+needStates,Assess and react to the market,assess-and-react-to-the-market,1,Tag may not exist in AEM tag tree - needs creation
+theme,Suppy chain resilience,suppy-chain-resilience,1,TYPO in CSV data
+marketCountry,China,china,1,Tag may not exist in AEM tag tree - needs creation
